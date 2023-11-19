@@ -1,0 +1,114 @@
+* 
+	outline: none !important
+
+body 
+	background-color: #FAFBFC
+
+.btn 
+	border: none
+	border-radius: 100px
+	font-size: 14px
+	min-width: 160px
+	padding: 9.5px 15px
+	@media (max-width: 575.98px)
+		width: 100%
+.btn-primary
+	background-color: #3194EE
+
+.text-blue
+	color: #3194EF
+
+.cont
+	max-width: 970px
+	margin-left: auto
+	margin-right: auto
+	padding: 30px 100px
+	background-color: #fff
+	box-shadow: 0 3px 5px rgba(0, 0, 0, .1)
+	border-radius: 12px
+	@media (max-width: 991.98px)
+		padding-left: 15px
+		padding-right: 15px
+
+.noUi-target
+	background: #E8ECEF
+	border: none
+	box-shadow: none
+.noUi-horizontal
+	height: 2px
+	.noUi-connect
+		height: 200%
+		margin-top: -1px
+	.noUi-tooltip-wrap
+		transform: translate(-50%, 0)
+		left: 50%
+		bottom: calc(100% + 14px)
+.noUi-connects
+	overflow: visible
+.noUi-connect
+	background: #3194EE
+	border-radius: 100px
+.noUi-handle
+	width: 18px !important
+	height: 18px !important
+	right: -9px !important
+	top: -9px !important
+	border: 4px solid #3194EE
+	border-radius: 100px
+	box-shadow: none
+	@media (max-width: 991.98px)
+		width: 28px !important
+		height: 28px !important
+		right: -14px !important
+		top: -14px !important
+
+	&:after, &:before
+		display: none
+
+.noUi-tooltip-wrap
+	display: flex
+	align-items: center
+	background: #DFEFFC
+	color: #3194EF
+	border-radius: 100px
+	position: absolute
+	padding: 4px 11px
+	@media (max-width: 991.98px)
+		display: none
+	.input-link
+		font-size: inherit
+
+.noUi-tooltip
+	border-radius: 100px
+	margin: 0 11px
+	border: 1px solid #99CCF8
+	padding: 1.5px 10px
+	position: static
+	font-size: 12px
+	color: inherit
+	background: transparent
+	transform: none !important
+	&:before 
+		content: ''
+		position: absolute
+		width: 10px
+		height: 10px
+		background: #DFEFFC
+		top: 100%
+		left: 50%
+		transform: translate(-50%, -50%) rotate(45deg)
+		z-index: -1
+
+.input-amount
+	min-width: 102px
+	text-align: center
+	border: 1px solid #ACD4F9
+	border-radius: 100px
+	padding: 8px 20px
+
+.input-link 
+	font-size: 26px
+	cursor: pointer
+	transition: .3s
+	&:hover
+		opacity: .8
